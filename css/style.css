@@ -115,18 +115,6 @@ ul.nav.navbar-nav.navbar-right{
   margin: 0px;
 }
 
-/* Carousel */
-
-span.glyphicon{
-	color: #a68552;
-}
-.carousel-caption p{
-  font-size: 18px;
-}
-h1, .h1, h2, .h2, h3, .h3{
-  font-size: 50px;
-}
-
 /* Container */
 
 i.fa.fa-heart{
@@ -190,14 +178,14 @@ div#yaralnc.col-xs-12.col-md-2{
   text-align: center;
 }
 .wrapper {
-  background-image: url('../images/background.jpg');
-  height: 650px;
+  background-image: url('../images/wrapper.jpg');
+  height: 700px;
   background-size: cover;
   padding-top: 150px;
   text-align: center;
   color: white;
 }
-h1{
+h1, h2{
   color : #a68552;
   font-size:40px;
 }
