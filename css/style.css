@@ -5,7 +5,7 @@ body{
 img#logo{
 	margin-left: 10px;
   margin-top: 10px; 
-  background-color: rgba(166, 133, 82, 0.3);
+  background-color: transparent;
 }
 
 /* Footer */
@@ -23,7 +23,7 @@ img#logo{
   color: black;
 }
 #footer a:hover {
-  color: #a68552;
+  color: white;
 }
 li {
   list-style: none;
@@ -129,13 +129,18 @@ h1, .h1, h2, .h2, h3, .h3{
 
 /* Container */
 
-div.col-xs-12.col-md-4.feature i.fa.fa-search{
-  font-size: 100px;
+i.fa.fa-heart{
+  font-size: 60px;
   color: #a68552;
   margin-bottom: 40px;
 }
 i.fa.fa-money{
   font-size: 80px;
+  color: #a68552;
+  margin-bottom: 60px;
+}
+i.fa.fa-check{
+  font-size: 60px;
   color: #a68552;
   margin-bottom: 60px;
 }
@@ -183,4 +188,16 @@ div#yaralnc.col-xs-12.col-md-2{
   display: block;
   margin: auto;
   text-align: center;
+}
+.wrapper {
+  background-image: url('../images/background.jpg');
+  height: 650px;
+  background-size: cover;
+  padding-top: 150px;
+  text-align: center;
+  color: white;
+}
+h1{
+  color : #a68552;
+  font-size:40px;
 }
