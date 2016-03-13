@@ -15,12 +15,12 @@ img#logo{
 }
 #footer {
   background-color: rgba(166, 133, 82, 0.3);
-  color: black;
+  color: #706f6c;
   padding-top: 2em;
   padding-bottom: 2em;
  }
 #footer a {
-  color: black;
+  color: #706f6c;
 }
 #footer a:hover {
   color: white;
@@ -29,14 +29,14 @@ li {
   list-style: none;
   border-bottom: 10px;
 } 
-ul.footer-yara{
+ul.footer-myartist{
 	padding-left: 0px;
   line-height: 2;
 }
 ul.info{
 	padding-left: 0px;
 }
-p.title-footer-yara{
+p.title-footer-myartist{
   color:#a68552;
   font-size: 16px;
 }
@@ -60,7 +60,7 @@ i.fa.fa-phone{
   border:0px;
 }
 .dropdown-menu>li>a{
-  color:black;
+  color:#706f6c;
   padding:1px;
 }
 .dropdown-menu>li>a:hover{
@@ -139,7 +139,7 @@ i.fa.fa-check{
   margin-bottom: 2em;
 }
 #myartist{
-  font-size: 22px;
+  font-size: 24px;
   line-height: 2;
   text-align: center;
   background-color: rgba(166, 133, 82, 0.3);
@@ -166,17 +166,7 @@ background: #a68552;
 border:0px;
 color: white;
 }
-div#fondation.container{
-  margin-bottom: 30px;
-  margin-top: 30px;
-  text-align: justify;
-  line-height: 2;
-}
-div#yaralnc.col-xs-12.col-md-2{
-  display: block;
-  margin: auto;
-  text-align: center;
-}
+
 .wrapper {
   background-image: url('../images/wrapper.jpg');
   height: 700px;
@@ -185,7 +175,15 @@ div#yaralnc.col-xs-12.col-md-2{
   text-align: center;
   color: white;
 }
-h1, h2{
+h1{
+  color : #a68552;
+  font-size:50px;
+}
+#baseline{
+  color: #706f6c;
+  font-size: 40px;
+}
+h2{
   color : #a68552;
   font-size:40px;
 }
