@@ -1,0 +1,22 @@
+ul.dropdown-menu{
+  min-width: 125px; 
+  background: white;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  font-size: 16px;
+  border-radius: 0px;
+  border-color: white;
+  top:3em;
+  margin-top: -2px;
+}
+ul li:hover ul.dropdown-menu{
+  display: block; 
+}
+<div>
+    <ul class="account">
+        <li><a href="#"> <i class="fa fa-unlock-alt"></i> Se connecter</a></li>
+        <li><a href="#"> <i class="fa fa-user"></i> Créer un compte</a></li>
+    </ul>
+</div>

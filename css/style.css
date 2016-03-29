@@ -6,6 +6,9 @@ img#logo{
 	margin-left: 10px;
   margin-top: 10px; 
   background-color: transparent;
+  display: block;
+  margin-left: auto;
+  margin-right : auto;
 }
 
 /* Footer */
@@ -67,27 +70,14 @@ i.fa.fa-phone{
   color:#a68552;
   background-color: transparent;  
 }
-ul.dropdown-menu{
-  min-width: 125px; 
-  background: white;
-  display: none;
-  position: absolute;
-  z-index: 999;
-  left: 0;
-  font-size: 16px;
-  border-radius: 0px;
-  border-color: white;
-  top:3em;
-  margin-top: -2px;
-}
-ul li:hover ul.dropdown-menu{
-  display: block; 
-}
 ul li ul.dropdown-menu li{
   display: block;
 }
 a.dropdown-toggle{
   margin-bottom: 20px;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus li.drop.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus down.open {
   background-color: transparent;
 }
 .navbar-transparent .navbar-brand,
@@ -186,4 +176,24 @@ h1{
 h2{
   color : #a68552;
   font-size:40px;
+}
+ul.account{
+  text-align: right;
+  margin-right: 10px;
+ color: #a68552;
+   }
+.account a {
+  color: #a68552;
+}
+h3{
+  color: #a68552;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+div.my-artwork-item p{
+  text-align: center;
+  margin-top: 15px;
+}
+div.my-artwork-item a{
+   color: #a68552;   
 }
